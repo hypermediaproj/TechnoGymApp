@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="Get in the spotlight" />
+<meta name="keywords" content="premium css templates, premium wordpress themes, famous themes, themeforest" />
+<title>Power Gym | Responsive Fitness Club Template</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<link href="http://fonts.googleapis.com/css?family=Terminal+Dosis" rel="stylesheet" type="text/css" />
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!-- Twitter Feed -->
+<script src="js/jquery.tweet.js" charset="utf-8"></script>
+<!-- Flickr Feed -->
+<script src="js/jflickrfeed.min.js"></script>
+<!-- PrettyPhoto -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/custom.quicksand.js"></script>
+<!-- DropDownMenu -->
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict();
+  $(window).load(function() {
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+	$('#basicuse').jflickrfeed({
+		limit: 6,
+		qstrings: {
+			id: '31408169@N04'
+		},
+		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+	});
+	
+
+  });
+  
+  jQuery(function($){
+	$(".tweet").tweet({
+	  join_text: "auto",
+	  username: "famousthemes",
+	  count: 2,
+	  auto_join_text_default: "we said,",
+	  auto_join_text_ed: "we",
+	  auto_join_text_ing: "we were",
+	  auto_join_text_reply: "we replied",
+	  auto_join_text_url: "we were checking out",
+	  loading_text: "loading tweets..."
+	});
+  });
+</script>
+</head>
+<body>
+<div id="main_container">
+  <a class="show_menu" href="#">menu</a>
+  <a class="hide_menu" href="#">close menu</a>
+  <div id="header">
+  	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo" title="logo" class="logo_image" /></a><h1><a href="index.html"></a>Techno Gym</h1>
+    </div>
+    <div class="login_section">Login | Registrati</div>
+    <div class="menu">
+        <ul id="main_menu">
+        	<li><a href="index.html">Home</a></li>
+            <li ><a href="lanostrapalestra.html">La Nostra Palestra</a></li>
+            <li class="selected"><a href="corsi.html">Corsi</a></li>
+            <li><a href="categorie_corsi.html">Categorie Corsi</a></li>
+            <li><a href="orari.html">Orari</a></li>
+            <li><a href="trainers.html">Istruttori</a></li>
+            <li><a href="sale.html">Stanze</a></li> 
+            <li><a href="attrezzatura.html">Attrezzature</a></li> 
+            <li><a href="testimonials.html">Testimonials</a></li> 
+            <li><a href="tariffe.html">Tariffe</a></li>
+            <li><a href="contact.html">Come trovarci</a></li>  
+        </ul>
+    </div>
+     
+  </div><!-- End of Header-->
+  
+  <div class="page_header pagebg1">
+      <h1>Corsi</h1>
+</div>
+    
+   <div class="content">
+    <div class="left_full left_content">
+    <h2>Corsi per: <strong>ordine alfabetico</strong> - <a href="#">categoria</a> - <a href="#">livello</a></h2>
+    <h2>A</h2>
+       <ul>
+<li><strong><a href="#">Acqua Cardio</a> - Categoria: <a href="#">Piscina</a> - Difficoltà: Media</strong></li>
+<p class="descriz_corso">Acqua e musica è il binomio che permette un'adeguata intensità di allenamento, insieme ad un non-impatto articolare.</p>
+<li><strong><a href="#">Acqua Gag</a> - Categoria: <a href="#">Piscina</a> - Difficoltà: Media</strong></li>
+<p class="descriz_corso">L’Acqua gag permette di ottenere risultati in modo molto divertente, focalizzando l'allenamento in acqua su gambe addominali e glutei.</p>
+<li><strong><a href="#">Acqua Gym</a> - Categoria: <a href="#">Piscina</a> - Difficoltà: Media</strong></li>
+<p class="descriz_corso">L'Acqua gym rappresenta l'attività fisica ideale per stare in forma, senza sottoporsi a ritmi eccessivi, migliorando anche la propria coordinazione motoria.</p>
+<li><strong><a href="#">Acqua Tonic</a> - Categoria: <a href="#">Piscina</a> - Difficoltà: Media</strong></li>
+<p class="descriz_corso">Tutta la muscolatura del corpo viene sollecitata con esercizi specifici e di coordinazione fra i vari segmenti corporei. </p>
+</ul>
+
+<h2>B</h2>
+       <ul>
+<li><strong><a href="#">Bachata</a> - Categoria: <a href="#">Ballo</a> - Difficoltà: Media</strong></li>
+<p class="descriz_corso">Tra i generi caraibici è uno dei pochi in cui l'influenza dei ritmi africani è meno evidente, difatti la musica presenta un suono dolce e melodico.</p>
+<li><strong><a href="#">Body Building</a> - Categoria: <a href="#">Fitness</a> - Difficoltà: Media</strong></li>
+<p class="descriz_corso">Il body building è lo sport che si pone come fine ultimo il cambiamento della composizione corporea, con l'aumento della massa muscolare, dove le finalità sono estetiche prima che competitive.</p>
+</ul>
+
+<h2>G</h2>
+       <ul>
+<li><strong><a href="#">Ginnastica Dimagrante</a> - Categoria: <a href="#">Fitness</a> - Difficoltà: Media</strong></li>
+<p class="descriz_corso">Il metodo migliore per modellare il corpo è una regolare attività fisica ed alimentazione: bastano 45 minuti due volte alla settimana, che devono essere trascorsi nella più totale tranquillità e senza sfidare le proprie capacità.</p>
+<li><strong><a href="#">Ginnastica Posturale</a> - Categoria: <a href="#">Fitness</a> - Difficoltà: Difficile</strong></li>
+<p class="descriz_corso">La ginnastica posturale è indirizzata al trattamento dei vizi e dolori della colonna vertebrale e di alcuni difetti di natura ortopedica degli arti inferiori.</p>
+<li><strong><a href="#">Ginnastica Rassodante</a> - Categoria: <a href="#">Fitness</a> - Difficoltà: Difficile</strong></li>
+<p class="descriz_corso">Il metodo migliore per rassodare il corpo é una regolare attività fisica: a seconda delle necessità si scelgono esercizi specifici, adatti a rassodare braccia, spalle, gambe, addome, o la parte che si reputa necessario far lavorare.</p>
+</ul>
+
+<h2>K</h2>
+       <ul>
+<li><strong><a href="#">Karate</a> - Categoria: <a href="#">Arti Marziali</a> - Difficoltà: Difficile</strong></li>
+<p class="descriz_corso">Il modello della lezione informale ma rispettoso - com'è uso a Okinawa - è uno dei valori di questa scuola.
+Allievi esperti e principianti lavorano assieme, in modo che i primi possano aiutare i secondi nell'apprendimento e nell'interpretazione corretta delle tecniche.</p>
+</ul>
+
+<h2>L</h2>
+       <ul>
+<li><strong><a href="#">Lezioni Nuoto Private</a> - Categoria: <a href="#">Piscina</a> - Difficoltà: Difficile</strong></li>
+<p class="descriz_corso">Per chi desidera imparare a nuotare o specializzare ogni stile, ottimizzando i tempi.</p>
+</ul>
+
+<h2>M</h2>
+       <ul>
+<li><strong><a href="#">MMA (Mixed Martial Arts)</a> - Categoria: <a href="#">Arti Marziali</a> - Difficoltà: Difficile</strong></li>
+<p class="descriz_corso">Tecniche di lotta in piedi e a terra (jiu jitsu), unite alle tecniche di pugno, ginocchio e calcio (muay thai) ed alle leve alla gambe (sambo).</p>
+</ul>
+
+<h2>N</h2>
+       <ul>
+<li><strong><a href="#">Nuoto Libero</a> - Categoria: <a href="#">Piscina</a> - Difficoltà: Facile</strong></li>
+<p class="descriz_corso">Ogni giorno la piscina offre degli orari liberi dove è possibile nuotare autonomamente, sfruttando così tutti benefici del nuoto: dal migliorare il rapporto con l'acqua ed il movimento del corpo, oppure per rilassare la propria muscolatrura e la propria mente in un ambiente confortevole e tranquillo.
+</ul>
+
+<h2>P</h2>
+       <ul>
+<li><strong><a href="#">Pilates</a> - Categoria: <a href="#">Gruppo</a> - Difficoltà: Difficile</strong></li>
+<p class="descriz_corso">Permette di migliorare in breve tempo l'aspetto fisico, migliorando la postura, incrementando il tono muscolare, la flessibilità, l'agilità in un'ottica di "economia del movimento".</p>
+</ul>
+
+<h2>S</h2>
+       <ul>
+<li><strong><a href="#">Salsa</a> - Categoria: <a href="#">Ballo</a> - Difficoltà: Difficile</strong></li>
+<p class="descriz_corso">La salsa è il ballo di coppia danzato sulle note dell'omonimo genere musicale, ed ha movimenti e regole codificate.</p>
+<li><strong><a href="#">Step Plus</a> - Categoria: <a href="#">Gruppo</a> - Difficoltà: Facile</strong></li>
+<p class="descriz_corso">La ginnastica con lo step deve ritenersi estremamente allenante e consigliata a tutti coloro che vogliono mantenersi in forma non potendo usufruire di valide alternative.</p>
+</ul>
+
+<h2>T</h2>
+       <ul>
+<li><strong><a href="#">Taekwondo</a> - Categoria: <a href="#">Arti Marziali</a> - Difficoltà: Facile</strong></li>
+<p class="descriz_corso">Taekwondo - dal coreano Tae 'colpire col piede, Kwon 'pugno' e Do 'arte'. Metodo di combattimento di antica origine coreana, nata e concepita per la sola difesa.</p>
+<li><strong><a href="#">Thai Boxe</a> - Categoria: <a href="#">Arti Marziali</a> - Difficoltà: Facile</strong></li>
+<p class="descriz_corso">Nota come Muay Thai è uno sport da combattimento che ha le sue origini nell'antica tecnica di lotta thailandese. Attualmente il termine Muay Thai oggi identifica l'aspetto sportivo dell'arte marziale.</p>
+<li><strong><a href="#">Tonificazione</a> - Categoria: <a href="#">Gruppo</a> - Difficoltà: Facile</strong></li>
+<p class="descriz_corso">Allenamento mirato alla tonificazione, con particolare attenzione alla muscolatura dei pettorali, dorsali, braccia e spalle, senza tralasciare la zona di cosce e glutei.</p>
+<li><strong><a href="#">Total Body</a> - Categoria: <a href="#">Gruppo</a> - Difficoltà: Facile</strong></li>
+<p class="descriz_corso">Tutta la muscolatura del corpo viene sollecitata con esercizi specifici e di coordinazione fra i vari segmenti corporei. </p>
+</ul>
+
+<h2>Y</h2>
+       <ul>
+<li><strong><a href="#">Yoga</a> - Categoria: <a href="#">Gruppo</a> - Difficoltà: Facile</strong></li>
+<p class="descriz_corso">Lo Hatha Yoga è una forma di Yoga basato su una serie di esercizi psicofisici di origini antichissime, originati nelle scuole iniziatiche dell'India e del Tibet.</p>
+</ul>
+       </div>      
+  
+     <div class="clear"></div> 
+
+  </div>
+        
+       <div class="footer">
+	 <div class="left13">
+   		  <div class="logo_f">
+<a href="index.html"><img src="images/logo.png" alt="logo" title="logo" class="logo_image" /></a>
+   		      <h1><a href="index.html"></a>Techno Gym</h1>
+   		  </div>
+   		 <p>
+        ©2014-2015 TechnoGym S.r.l. - TechnoGym.it® è un marchio registrato. Tutti i diritti riservati.</p>
+      
+     </div>
+        
+	 <div class="left13 fdivider">
+        <h2>I Nostri Servizi</h2>
+        <ul class="list">
+        <li>Programma di allenamento tra cui uno -contro-uno ad insegnamento personalizzato.</li>
+        <li>Palestra con tutti i tipi di macchine per una forma smagliante.</li>
+        <li>Offriamo pacchetti con i nostri personal trainer certificati.</li>
+        </ul>
+        </div>
+        
+   		<div class="left13">
+        <h2>Contattaci!        </h2>
+        <p><strong>Email:</strong> bodybuilding@email.com <br />
+        <strong>Telefono:</strong> 0321 807090</p>
+       <div class="socials">
+           <ul>
+           <li><a href="#"><img src="images/twitter.png" alt="" title="" border="0"/></a></li>
+           <li><a href="#"><img src="images/facebook.png" alt="" title="" border="0"/></a></li>
+
+           <li><a href="#"><img src="images/google.png" alt="" title="" border="0"/></a></li>
+           </ul>
+       </div>
+     </div>
+</div>
+       
+       
+   </div>
+   
+   <div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+var main_menu=new main_menu.dd("main_menu");
+main_menu.init("main_menu","menuhover");
+</script>
+</body>
+</html>

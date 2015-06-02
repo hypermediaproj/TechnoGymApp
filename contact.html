@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="Get in the spotlight" />
+<meta name="keywords" content="premium css templates, premium wordpress themes, famous themes, themeforest" />
+<title>Power Gym | Responsive Fitness Club Template</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<link href="http://fonts.googleapis.com/css?family=Terminal+Dosis" rel="stylesheet" type="text/css" />
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!-- Twitter Feed -->
+<script src="js/jquery.tweet.js" charset="utf-8"></script>
+<!-- Flickr Feed -->
+<script src="js/jflickrfeed.min.js"></script>
+<!-- PrettyPhoto -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/custom.quicksand.js"></script>
+<!-- DropDownMenu -->
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict();
+  $(window).load(function() {
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+	$('#basicuse').jflickrfeed({
+		limit: 6,
+		qstrings: {
+			id: '31408169@N04'
+		},
+		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+	});
+	
+
+  });
+  
+  jQuery(function($){
+	$(".tweet").tweet({
+	  join_text: "auto",
+	  username: "famousthemes",
+	  count: 2,
+	  auto_join_text_default: "we said,",
+	  auto_join_text_ed: "we",
+	  auto_join_text_ing: "we were",
+	  auto_join_text_reply: "we replied",
+	  auto_join_text_url: "we were checking out",
+	  loading_text: "loading tweets..."
+	});
+  });
+</script>
+</head>
+<body>
+<div id="main_container">
+  <a class="show_menu" href="#">menu</a>
+  <a class="hide_menu" href="#">close menu</a>
+    <div id="header">
+  	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo" title="logo" class="logo_image" /></a><h1><a href="index.html"></a>Techno Gym</h1>
+    </div>
+    
+    <div class="login_section">Login | Registrati</div>
+
+    <div class="menu">
+        <ul id="main_menu">
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="lanostrapalestra.html">La Nostra Palestra</a></li>
+            <li><a href="corsi.html">Corsi</a></li>
+            <li><a href="categorie_corsi.html">Categorie Corsi</a></li>
+            <li><a href="orari.html">Orari</a></li>
+            <li><a href="trainers.html">Istruttori</a></li>
+            <li><a href="sale.html">Stanze</a></li> 
+            <li><a href="attrezzatura.html">Attrezzature</a></li> 
+            <li><a href="testimonials.html">Testimonials</a></li> 
+            <li><a href="tariffe.html">Tariffe</a></li>
+            <li class="selected"><a href="contact.html">Come trovarci</a></li>  
+        </ul>
+    </div>
+     
+  </div><!-- End of Header-->
+  
+  <div class="page_header pagebg1"></div>
+    
+<div class="content">
+
+   
+	<div class="left23 left_content">
+        <h2>Mappa</h2>
+                <div class="gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.601523452159!2d9.230337700000005!3d45.47783039999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6f67dd11753%3A0x8e30fae1774a3377!2sPolitecnico+di+Milano!5e0!3m2!1sit!2sit!4v1432322038969" width="100%" height="280" frameborder="0" style="border:0"></iframe></div>
+
+                <div class="form_content">
+                
+                <h2>Lasciaci un messaggio</h2>  
+                
+                    <form id="form1" method="post" action="">
+                    <div class="form_top">
+                        <div class="form_row_half">
+                        <input type="text" class="form_input" name="name" placeholder="Nome"/>
+                        </div>
+                        <div class="form_row_half">
+                        <input type="text" class="form_input" name="email" placeholder="Email"/>
+                        </div>
+                        <div class="form_row">
+                        <textarea class="form_textarea" name="comment" placeholder="Tuo messaggio..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form_bottom">
+                        <input type="submit" class="form_submit" value="Invia" />
+                    </div>           
+                    </form>
+                </div>
+
+   		</div>
+        
+	<div class="left13 sidebar">
+        
+         <h2>Il Nostro Indirizzo</h2>
+                
+                <div class="sidebar_blog_entries">
+                
+                <div class="post_small">
+                <img src="images/u39.png" alt="" title="" class="post_thumb" />
+                
+                <p>
+                Piazza Leonardo da Vinci, 32
+20133 Milano.
+                </p>
+                </div>
+             </div>   
+                
+                <h2>Come Contattarci</h2>
+                
+                <div class="sidebar_blog_entries">
+                
+                <div class="post_small">
+                <img src="images/icon_contact.png" alt="" title="" class="post_thumb" />
+                <h3><div class="red">Email</div></h3>
+                <p>
+                bodybuilding@email.com 
+                </p>
+                </div>
+                
+                <div class="post_small">
+                <img src="images/icon_phone.png" alt="" title="" class="post_thumb" />
+                <h3><div class="red">Telefono</div></h3>
+                <p>
+                0321 807090
+                </p>
+                </div>
+               </div>
+               
+               <h2>Social</h2>
+                
+                <div class="sidebar_blog_entries">               
+                <div class="post_small">
+                <img src="images/facebook.png" alt="" title="" class="post_thumb" />
+                <h3><div class="red">Facebook</div></h3>
+                <p>
+                Entra nella nostra pagina Facebook!
+                </p>
+                </div>
+                
+                <div class="post_small">
+                <img src="images/google.png" alt="" title="" class="post_thumb" />
+                <h3><div class="red">Goggle+</div></h3>
+                <p>
+                Entra nella nostra pagina Google+!
+                </p>
+                </div>
+                
+                <div class="post_small">
+                <img src="images/twitter.png" alt="" title="" class="post_thumb" />
+                <h3><div class="red">Twitter</div></h3>
+                <p>
+                Entra nella nostra pagina Twitter! 
+                </p>
+                </div>
+               
+                </div>
+                               
+        </div>
+	<div class="clear"></div>     
+  </div>
+  
+   
+   
+   <div class="footer">
+	 <div class="left13">
+   		  <div class="logo_f">
+<a href="index.html"><img src="images/logo.png" alt="logo" title="logo" class="logo_image" /></a>
+   		      <h1><a href="index.html"></a>Techno Gym</h1>
+   		  </div>
+   		 <p>
+        ©2014-2015 TechnoGym S.r.l. - TechnoGym.it® è un marchio registrato. Tutti i diritti riservati.</p>
+      
+     </div>
+        
+	 <div class="left13 fdivider">
+        <h2>I Nostri Servizi</h2>
+        <ul class="list">
+        <li>Programma di allenamento tra cui uno -contro-uno ad insegnamento personalizzato.</li>
+        <li>Palestra con tutti i tipi di macchine per una forma smagliante.</li>
+        <li>Offriamo pacchetti con i nostri personal trainer certificati.</li>
+        </ul>
+        </div>
+        
+   		<div class="left13">
+        <h2>Contattaci!        </h2>
+        <p><strong>Email:</strong> bodybuilding@email.com <br />
+        <strong>Telefono:</strong> 0321 807090</p>
+       <div class="socials">
+           <ul>
+           <li><a href="#"><img src="images/twitter.png" alt="" title="" border="0"/></a></li>
+           <li><a href="#"><img src="images/facebook.png" alt="" title="" border="0"/></a></li>
+
+           <li><a href="#"><img src="images/google.png" alt="" title="" border="0"/></a></li>
+           </ul>
+       </div>
+     </div>
+</div>
+   
+   <div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+var main_menu=new main_menu.dd("main_menu");
+main_menu.init("main_menu","menuhover");
+</script>
+</body>
+</html>

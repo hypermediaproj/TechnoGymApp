@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="Get in the spotlight" />
+<meta name="keywords" content="premium css templates, premium wordpress themes, famous themes, themeforest" />
+<title>Power Gym | Responsive Fitness Club Template</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<link href="http://fonts.googleapis.com/css?family=Terminal+Dosis" rel="stylesheet" type="text/css" />
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!-- Twitter Feed -->
+<script src="js/jquery.tweet.js" charset="utf-8"></script>
+<!-- Flickr Feed -->
+<script src="js/jflickrfeed.min.js"></script>
+<!-- DropDownMenu -->
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict();
+  $(window).load(function() {
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+	$('#basicuse').jflickrfeed({
+		limit: 6,
+		qstrings: {
+			id: '31408169@N04'
+		},
+		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+	});
+	
+
+  });
+  
+  jQuery(function($){
+	$(".tweet").tweet({
+	  join_text: "auto",
+	  username: "famousthemes",
+	  count: 2,
+	  auto_join_text_default: "we said,",
+	  auto_join_text_ed: "we",
+	  auto_join_text_ing: "we were",
+	  auto_join_text_reply: "we replied",
+	  auto_join_text_url: "we were checking out",
+	  loading_text: "loading tweets..."
+	});
+  });
+</script>
+</head>
+<body>
+<div id="main_container">
+  <a class="show_menu" href="#">menu</a>
+  <a class="hide_menu" href="#">close menu</a>
+  <div id="header">
+  	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo" title="logo" class="logo_image" /></a><h1><a href="index.html"></a>Techno Gym</h1>
+    </div>
+    <div class="login_section">Login | Registrati</div>
+    <div class="menu">
+        <ul id="main_menu">
+        	<li><a href="index.html">Home</a></li>
+            <li class="selected"><a href="lanostrapalestra.html">La Nostra Palestra</a></li>
+            <li><a href="corsi.html">Corsi</a></li>
+            <li><a href="categorie_corsi.html">Categorie Corsi</a></li>
+            <li><a href="orari.html">Orari</a></li>
+            <li><a href="trainers.html">Istruttori</a></li>
+            <li><a href="sale.html">Stanze</a></li> 
+            <li><a href="attrezzatura.html">Attrezzature</a></li> 
+            <li><a href="testimonials.html">Testimonials</a></li> 
+            <li><a href="tariffe.html">Tariffe</a></li>
+            <li><a href="contact.html">Come trovarci</a></li>  
+        </ul>
+    </div>
+     
+  </div><!-- End of Header-->
+  
+  <div class="page_header pagebg1">
+      <h1>Acqua Cardio</h1>
+</div>
+    
+   <div class="content">
+    <div class="left_full">
+      <h2>Descrizione</h2>
+  <p>Acqua e musica è il binomio che permette un'adeguata intensità di allenamento, insieme ad un non-impatto articolare. L'allenamento progressivo di questa lezione è consigliato anche a chi è in sovrappeso, a chi ha problemi di schiena e di circolazione.
+ </p></div>
+
+  <ul class="portfolio_items"> 
+        
+        <li class="left13 gym" data-id="id-1">
+        	<div class="gallery_item">
+                <img class="gallery_foto" src="images/u42.jpg" alt="" title="" border="0"/>
+            </div>
+        </li>
+        
+        <li class="left13 bodybuilding" data-id="id-2">
+        	<div class="gallery_item">
+                <img src="images/u43.jpg" alt="" title="" border="0" class="gallery_foto" />         
+            </div>
+        </li>
+        
+        <li class="left13 video" data-id="id-3">
+        	<div class="gallery_item">
+            <img src="images/u52.jpg" alt="" title="" border="0" class="gallery_foto" />
+            </div>
+        </li>
+        </ul>
+        
+        <div class="left_full">
+        <h3>Orari</h3>
+        
+        <ul class="program_list_detailed">
+        <li>
+        <span class="col2">Lunedì</span>
+        <span class="col3">Martedì</span>
+        <span class="col4">Mercoledì</span>
+        <span class="col5">Giovedì</span>
+        <span class="col6">Venerdì</span>
+        <span class="col7">Sabato</span>
+        <span class="col8">Domenica</span>
+        </li>
+        
+        <li class="even">
+        <span class="col1">09:00 - 10:30</span>
+        <span class="col2">18.45 - 19.30</span>
+        <span class="col3">-</span>
+        <span class="col4">18.45 - 19.30</span>
+        <span class="col5">18.45 - 19.30</span>
+        <span class="col6">18.45 - 19.30</span>
+        <span class="col7">-</span>
+        </li>
+        
+        </ul>
+        <h4>Categoria: <a href="categoria.html">Piscina</a></h4>
+        <h4>Sala: <a href="sala.html">Piscina</a></h4>
+        <h4>Istruttore: <a href="istruttore.html">Federico</a></h4>
+        
+        <div class="post_left">
+            <a href="istruttore.html" class="post_image"><img src="images/image_13_8.jpg" alt="" title="" /></a>
+            </div>
+        
+        </div>
+  
+     <div class="clear"></div> 
+
+  </div>
+        
+       <div class="footer">
+	 <div class="left13">
+   		  <div class="logo_f">
+<a href="index.html"><img src="images/logo.png" alt="logo" title="logo" class="logo_image" /></a>
+   		      <h1><a href="index.html"></a>Techno Gym</h1>
+   		  </div>
+   		 <p>
+        ©2014-2015 TechnoGym S.r.l. - TechnoGym.it® è un marchio registrato. Tutti i diritti riservati.</p>
+      
+     </div>
+        
+	 <div class="left13 fdivider">
+        <h2>I Nostri Servizi</h2>
+        <ul class="list">
+        <li>Programma di allenamento tra cui uno -contro-uno ad insegnamento personalizzato.</li>
+        <li>Palestra con tutti i tipi di macchine per una forma smagliante.</li>
+        <li>Offriamo pacchetti con i nostri personal trainer certificati.</li>
+        </ul>
+        </div>
+        
+   		<div class="left13">
+        <h2>Contattaci!        </h2>
+        <p><strong>Email:</strong> bodybuilding@email.com <br />
+        <strong>Telefono:</strong> 0321 807090</p>
+       <div class="socials">
+           <ul>
+           <li><a href="#"><img src="images/twitter.png" alt="" title="" border="0"/></a></li>
+           <li><a href="#"><img src="images/facebook.png" alt="" title="" border="0"/></a></li>
+
+           <li><a href="#"><img src="images/google.png" alt="" title="" border="0"/></a></li>
+           </ul>
+       </div>
+     </div>
+</div>
+       
+       
+   </div>
+   
+   <div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+var main_menu=new main_menu.dd("main_menu");
+main_menu.init("main_menu","menuhover");
+</script>
+</body>
+</html>
